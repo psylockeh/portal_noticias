@@ -12,7 +12,7 @@
   --text-color-primary: #f1f5f9;
   --text-color-secondary: #cbd5e1;
 
-  --font-family: "Archivo", sans-serif;
+  --font-family: "Archivo", Sans-Serif;
   --h1: 800 24px/135% (var(--font-family));
   --h2: 800 16px/140% (var(--font-family));
   --h3: 800 14px/140% (var(--font-family));
@@ -35,4 +35,20 @@ h1,
 h2,
 h3 {
   font: inherit;
+}
+
+.container {
+  max-width: 1280px;
+  margin-inline: 32px;
+  padding-inline: auto;
+}
+
+/*utility-first */
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
 }
